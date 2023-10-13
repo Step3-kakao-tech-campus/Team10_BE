@@ -3,6 +3,7 @@ package bdbe.bdbd.carwash;
 import bdbe.bdbd._core.errors.security.CustomUserDetails;
 import bdbe.bdbd._core.errors.utils.ApiUtils;
 import lombok.RequiredArgsConstructor;
+import org.apache.coyote.Response;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.validation.Errors;
@@ -30,6 +31,12 @@ public class CarwashRestController {
     @PostMapping("/owner/carwashes/register")
     public ResponseEntity<?> save(@RequestBody @Valid CarwashRequest.SaveDTO saveDTOs, Errors errors,  @AuthenticationPrincipal CustomUserDetails userDetails) {
         carwashService.save(saveDTOs, userDetails.getUser());
+        return ResponseEntity.ok(ApiUtils.success(null));
+    }
+
+    @GetMapping("/carwashes/{carwash_id}/introduction") //세차장 상세 정보 조회
+    public ResponseEntity<?> findById(@PathVariable("carwash_id") Long carwashId) {
+        carwashService.getfindById(carwashId);
         return ResponseEntity.ok(ApiUtils.success(null));
     }
 

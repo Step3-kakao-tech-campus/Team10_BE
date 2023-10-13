@@ -3,6 +3,7 @@ package bdbe.bdbd.carwash;
 import bdbe.bdbd.file.File;
 import bdbe.bdbd.keyword.carwashKeyword.CarwashKeyword;
 import bdbe.bdbd.location.Location;
+import bdbe.bdbd.review.Review;
 import bdbe.bdbd.user.User;
 import lombok.AccessLevel;
 import lombok.Builder;
@@ -52,6 +53,9 @@ public class Carwash{
 
     @OneToMany(mappedBy = "carwash") //양방향 비소유측, 1:1 참조  - readOnly
     private List<File> fileList = new ArrayList<>();
+
+    @OneToMany(mappedBy = "carwash")
+    private List<Review> reviewList = new ArrayList<>();
 
     @Builder
     public Carwash(Long id, String name, double rate, String tel, String des, int price, Location location, User user) {
