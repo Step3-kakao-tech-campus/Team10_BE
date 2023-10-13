@@ -61,7 +61,7 @@ public class BayRestControllerTest {
 //        ResultActions resultActions = mvc.perform(
 //                post("/owner/carwashes/%d/bays", carwashId)
 //                        .content(requestBody)
-//                        .contentType(MediaType.APPLICATION_ATOM_XML_VALUE)
+//                        .contentType(MediaType.APPLICATION_JSON_VALUE)
 //        );
 //
 //        String responseBody = resultActions.andReturn().getResponse().getContentAsString(StandardCharsets.UTF_8);
@@ -79,7 +79,7 @@ public class BayRestControllerTest {
         ResultActions resultActions = mvc.perform(
                 post("/owner/carwashes/{carwash_id}/bays", carwashId)
                         .content(requestBody)
-                        .contentType(MediaType.APPLICATION_ATOM_XML_VALUE)
+                        .contentType(MediaType.APPLICATION_JSON_VALUE)
         );
 
         resultActions.andExpect(status().isOk());
@@ -120,7 +120,7 @@ public class BayRestControllerTest {
         ResultActions resultActions = mvc.perform(
                 post("/owner/bays/%d/status", bayId)
                         .content(requestBody)
-                        .contentType(MediaType.APPLICATION_ATOM_XML_VALUE)
+                        .contentType(MediaType.APPLICATION_JSON_VALUE)
         );
 
         String responseBody = resultActions.andReturn().getResponse().getContentAsString(StandardCharsets.UTF_8);
