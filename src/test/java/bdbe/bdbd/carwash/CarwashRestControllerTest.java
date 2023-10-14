@@ -20,6 +20,7 @@ import java.nio.charset.StandardCharsets;
 import java.time.LocalTime;
 import java.util.Arrays;
 
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.put;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
@@ -148,6 +149,20 @@ public class CarwashRestControllerTest {
         System.out.println("응답 Body:" + responseBody);
 
         resultActions.andExpect(jsonPath("$.success").value("true"));
+    }
+
+    @Test
+    @DisplayName("세차장 정보 수정")
+    public void updateCarwashDetailsTest() throws Exception {
+
+        Long carwashId = carwashJPARepository.findBy().getId();
+
+        System.out.print("carwashId: " + carwashId);
+
+        ResultActions resultActions = mvc.perform(
+                put(String.format("/owner/carwashes/{carwash_id}/details"))
+                        .contentType(MediaType.APPLICATION_JSON_VALUE)
+        );
     }
 
 }

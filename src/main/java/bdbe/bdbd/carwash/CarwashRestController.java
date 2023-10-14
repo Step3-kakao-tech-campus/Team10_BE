@@ -40,12 +40,11 @@ public class CarwashRestController {
         return ResponseEntity.ok(ApiUtils.success(null));
     }
 
-//    @PutMapping("/owner/carwashes/{carwash_id}/details") //개별 매장 수정
-//    public ResponseEntity<?> updateCarwashDetails(@RequestBody @Valid CarwashRequest.SaveDTO saveDTO, Errors errors,
-//                                                  @AuthenticationPrincipal CustomUserDetails userDetails) {
-//        carwashService.updateCarwashDetails(saveDTO, userDetails.getUser());
-//        return ResponseEntity.ok(ApiUtils.success(null));
-//
-//    }
+    @PutMapping("/owner/carwashes/{carwash_id}/details") //세차장 정보 수정
+        public ResponseEntity<?> updateCarwashDetails(@PathVariable("carwash_id") Long carwashId, @AuthenticationPrincipal CustomUserDetails userDetails) {
+            carwashService.updateCarwashDetails(carwashId, userDetails.getUser());
+            return ResponseEntity.ok(ApiUtils.success(null));
+
+    }
 
 }

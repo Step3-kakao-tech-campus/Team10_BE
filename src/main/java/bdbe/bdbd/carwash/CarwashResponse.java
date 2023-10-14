@@ -43,7 +43,7 @@ public class CarwashResponse {
     }
 
     @Getter
-    public static class FindByIdDTO  {
+    public static class findByIdDTO {
         private Long id;
         private String name;
         private double rate;
@@ -54,7 +54,7 @@ public class CarwashResponse {
         private Long userId;
         private List<Review> review;
 
-        public FindByIdDTO (Carwash carwash) {
+        public findByIdDTO(Carwash carwash) {
             this.id = carwash.getId();
             this.name = carwash.getName();
             this.rate = carwash.getRate();
@@ -68,7 +68,6 @@ public class CarwashResponse {
         }
 
 
+
     }
-
-
 }

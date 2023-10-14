@@ -83,16 +83,20 @@ public class CarwashService {
         carwashKeywordJPARepository.saveAll(carwashKeywordList);
     } //변경감지, 더티체킹, flush, 트랜잭션 종료
 
-    public CarwashResponse.FindByIdDTO getfindById(Long carwashId, User sessionUSer) {
+    public CarwashResponse.findByIdDTO getfindById(Long carwashId, User sessionUSer) {
 
         Carwash carwash = carwashJPARepository.findById(carwashId)
                 .orElseThrow(() -> new IllegalArgumentException("not found carwash"));
 
-        return new CarwashResponse.FindByIdDTO(carwash);
+        return new CarwashResponse.findByIdDTO(carwash);
 
 
     }
-}
 
-//    public CarwashResponse.updateCarwashDetailsDTO updateCarwashDetails (Long carwashId)
-//}
+
+    public CarwashResponse.findByIdDTO updateCarwashDetails (Long carwashId, User sessionUser) {
+        Carwash carwash = carwashJPARepository.findById(carwashId)
+                .orElseThrow(() -> new IllegalArgumentException("carwash not found"));
+        return new CarwashResponse.findByIdDTO(carwash);
+    }
+}

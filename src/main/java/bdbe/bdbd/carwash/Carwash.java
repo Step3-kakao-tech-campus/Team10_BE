@@ -72,4 +72,12 @@ public class Carwash{
     public void updateRate(double rate) {
         this.rate = rate;
     }
+
+    public void updateCarwashDetails(String name, int rate, String tel, String des, int price) {
+        this.name = name;
+        this.rate = rate;
+        this.tel = tel;
+        this.des = des;
+        this.price = price;
+    }
 }
