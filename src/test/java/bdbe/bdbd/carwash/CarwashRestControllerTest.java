@@ -163,6 +163,12 @@ public class CarwashRestControllerTest {
                 put(String.format("/owner/carwashes/{carwash_id}/details"))
                         .contentType(MediaType.APPLICATION_JSON_VALUE)
         );
+        resultActions.andExpect(status().isOk());
+
+        String responseBody = resultActions.andReturn().getResponse().getContentAsString(StandardCharsets.UTF_8);
+        System.out.println("응답 Body:" + responseBody);
+
+        resultActions.andExpect(jsonPath("$.success").value("true"));
     }
 
 }
