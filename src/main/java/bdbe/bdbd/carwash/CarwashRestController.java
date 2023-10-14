@@ -35,9 +35,17 @@ public class CarwashRestController {
     }
 
     @GetMapping("/carwashes/{carwash_id}/introduction") //세차장 상세 정보 조회
-    public ResponseEntity<?> findById(@PathVariable("carwash_id") Long carwashId) {
-        carwashService.getfindById(carwashId);
+    public ResponseEntity<?> findById(@PathVariable("carwash_id") Long carwashId, @AuthenticationPrincipal CustomUserDetails userDetails) {
+        carwashService.getfindById(carwashId, userDetails.getUser());
         return ResponseEntity.ok(ApiUtils.success(null));
     }
+
+//    @PutMapping("/owner/carwashes/{carwash_id}/details") //개별 매장 수정
+//    public ResponseEntity<?> updateCarwashDetails(@RequestBody @Valid CarwashRequest.SaveDTO saveDTO, Errors errors,
+//                                                  @AuthenticationPrincipal CustomUserDetails userDetails) {
+//        carwashService.updateCarwashDetails(saveDTO, userDetails.getUser());
+//        return ResponseEntity.ok(ApiUtils.success(null));
+//
+//    }
 
 }

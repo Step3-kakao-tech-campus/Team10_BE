@@ -10,7 +10,6 @@ import bdbe.bdbd.location.LocationJPARepository;
 import bdbe.bdbd.optime.Optime;
 import bdbe.bdbd.optime.OptimeJPARepository;
 import bdbe.bdbd.user.User;
-import bdbe.bdbd.user.UserJPARepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
@@ -84,7 +83,7 @@ public class CarwashService {
         carwashKeywordJPARepository.saveAll(carwashKeywordList);
     } //변경감지, 더티체킹, flush, 트랜잭션 종료
 
-    public CarwashResponse.FindByIdDTO getfindById(Long carwashId) {
+    public CarwashResponse.FindByIdDTO getfindById(Long carwashId, User sessionUSer) {
 
         Carwash carwash = carwashJPARepository.findById(carwashId)
                 .orElseThrow(() -> new IllegalArgumentException("not found carwash"));
@@ -94,3 +93,6 @@ public class CarwashService {
 
     }
 }
+
+//    public CarwashResponse.updateCarwashDetailsDTO updateCarwashDetails (Long carwashId)
+//}
