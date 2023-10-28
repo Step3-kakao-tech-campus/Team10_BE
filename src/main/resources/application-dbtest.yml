@@ -33,15 +33,27 @@ logging:
 
 file:
   path: ./images/
+#
+#cloud:
+#  aws:
+#    credentials:
+#      accessKey:  ${AWS_ACCESS_KEY_ID}
+#      secretKey: ${AWS_SECRET_ACCESS_KEY}
+#    region:
+#      static: ap-northeast-2
+#    s3:
+#      bucket: ${AWS_BUCKET_NAME}
+#    stack:
+#      auto: false
 
 cloud:
   aws:
     credentials:
-      accessKey:  ${AWS_ACCESS_KEY_ID}
-      secretKey: ${AWS_SECRET_ACCESS_KEY}
+      accessKey: AKIA4FE625NS7OTMNH57
+      secretKey: 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
     region:
       static: ap-northeast-2
     s3:
-      bucket: ${AWS_BUCKET_NAME}
+      bucket: bdbdfiles
     stack:
       auto: false
