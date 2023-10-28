@@ -45,15 +45,3 @@ file:
 #      bucket: ${AWS_BUCKET_NAME}
 #    stack:
 #      auto: false
-
-cloud:
-  aws:
-    credentials:
-      accessKey: AKIA4FE625NS7OTMNH57
-      secretKey: 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
-    region:
-      static: ap-northeast-2
-    s3:
-      bucket: bdbdfiles
-    stack:
-      auto: false
