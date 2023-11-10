@@ -1,0 +1,18 @@
+
+g	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(ˆç“éøÿÿÿÿ8ÌÔ‹­º1
+h	java:S112‹"FDefine and throw a dedicated exception instead of using a generic one.(Ğïíšüÿÿÿÿ8ÍÔ‹­º1
+c	java:S112Ÿ"FDefine and throw a dedicated exception instead of using a generic one.(õ¸Ï8ÍÔ‹­º1
+v
+java:S1192í"SDefine a constant instead of duplicating this literal "location not found" 3 times.(ÃüĞ¾ÿÿÿÿÿ8ÎÔ‹­º1
+~
+java:S1488®"[Immediately return this expression instead of assigning it to the temporary variable "dto".(ç‰íºúÿÿÿÿ8ÏÔ‹­º1
+~
+java:S1488¿"[Immediately return this expression instead of assigning it to the temporary variable "dto".(ç‰íºúÿÿÿÿ8ÏÔ‹­º1
+{
+java:S1488Ô"^Immediately return this expression instead of assigning it to the temporary variable "result".( ´±z8ÏÔ‹­º1
+u
+java:S2139}"XEither log this exception and handle it, or rethrow it with some contextual information.(”ı¾8ßÔ‹­º1
+v
+java:S2139‰"XEither log this exception and handle it, or rethrow it with some contextual information.(”ı¾8àÔ‹­º1
+v
+java:S2139"XEither log this exception and handle it, or rethrow it with some contextual information.(”ı¾8ãÔ‹­º1

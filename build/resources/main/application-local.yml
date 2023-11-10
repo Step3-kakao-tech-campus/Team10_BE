@@ -1,0 +1,48 @@
+server:
+  servlet:
+    encoding:
+      charset: utf-8
+      force: true
+  port: 8080
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://dbdb.cdoyp1fqetnz.ap-northeast-2.rds.amazonaws.com:3306/bdbd?serverTimezone=Asia/Seoul&characterEncoding=UTF-8
+    username: admin
+    password: qymkoc-wuvtaf-kYsbu2
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+      default_batch_fetch_size: 100
+    open-in-view: false
+
+logging:
+  level:
+    '[bdbe.bdbd]': DEBUG
+    '[org.hibernate.type]': TRACE
+
+cloud:
+  aws:
+    credentials:
+      accessKey: AKIA4FE625NS7OTMNH57
+      secretKey: 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
+    region:
+      static: ap-northeast-2
+    s3:
+      bucket: bdbdfiles
+    stack:
+      auto: false
+
+kakao:
+  admin:
+    key: bbfac6880aa8fed63b0eb492a7de92fb
+payment:
+  approval-url: https://google.com
+  cancel-url: https://naver.com
+  fail-url: https://x.com

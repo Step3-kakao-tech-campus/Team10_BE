@@ -1,0 +1,32 @@
+
+U
+java:S1118":Add a private constructor to hide the implicit public one.(ÓÔƒ›ıÿÿÿÿ
+j	java:S116"URename this field "tms_result" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(à£‹İ
+z	java:S116"`Rename this field "next_redirect_app_url" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( œÔŒşÿÿÿÿ
+x	java:S116"cRename this field "next_redirect_mobile_url" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Õ©
+t	java:S116"_Rename this field "next_redirect_pc_url" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±¼Ñí
+q	java:S116"]Rename this field "android_app_scheme" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Å§u
+n	java:S116"YRename this field "ios_app_scheme" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ó¿÷ï
+j	java:S116"URename this field "created_at" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ù“ƒÍ
+p	java:S116"[Rename this field "partner_order_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ì‘™•
+n	java:S116"ZRename this field "partner_user_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼Á»
+x	java:S116"^Rename this field "payment_method_type" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«¼Šãøÿÿÿÿ
+h	java:S116"TRename this field "item_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Âë¤
+j	java:S116""URename this field "created_at" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ù“ƒÍ
+p	java:S116#"VRename this field "approved_at" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ù¤àÊúÿÿÿÿ
+m	java:S116*"SRename this field "tax_free" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹ì àûÿÿÿÿ
+r	java:S116."XRename this field "green_deposit" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹¤ÿÌüÿÿÿÿ
+m	java:S1163"XRename this field "purchase_corp" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥ìØ
+w	java:S1164"]Rename this field "purchase_corp_code" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ª¾ËÑùÿÿÿÿ
+p	java:S1165"VRename this field "issuer_corp" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“èÖÏúÿÿÿÿ
+u	java:S1166"[Rename this field "issuer_corp_code" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³ÊÉ¦üÿÿÿÿ
+{	java:S1167"aRename this field "kakaopay_purchase_corp" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´¤¼øÿÿÿÿ
+€	java:S1168"fRename this field "kakaopay_purchase_corp_code" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ß·¶ƒıÿÿÿÿ
+y	java:S1169"_Rename this field "kakaopay_issuer_corp" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹ÇÈËøÿÿÿÿ
+~	java:S116:"dRename this field "kakaopay_issuer_corp_code" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Î‚Ô©ıÿÿÿÿ
+n	java:S116<"TRename this field "card_type" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ä‘ÖÕúÿÿÿÿ
+m	java:S116="XRename this field "install_month" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬†¡©
+k	java:S116>"VRename this field "approved_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë ”é
+m	java:S116?"SRename this field "card_mid" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æİ‘úÿÿÿÿ
+u	java:S116@"`Rename this field "interest_free_install" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰­¬å
+s	java:S116A"YRename this field "card_item_code" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(û¦•¼üÿÿÿÿ

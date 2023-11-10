@@ -1,0 +1,7 @@
+
+k	java:S116%"WRename this field "approval_url" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ýèÊ
+o	java:S116("URename this field "cancel_url" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÏØ¦Áÿÿÿÿÿ
+m	java:S116+"SRename this field "fail_url" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©é‘žûÿÿÿÿ
+C
+java:S11727"-Remove this unused method parameter "member".(€¾Ö…
+@	java:S106?"+Replace this use of System.out by a logger.(×üë‰

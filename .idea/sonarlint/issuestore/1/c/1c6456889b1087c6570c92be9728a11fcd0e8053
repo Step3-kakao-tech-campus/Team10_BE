@@ -1,0 +1,14 @@
+
+b	java:S1017"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(½İ±Â
+i	java:S101z"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¥Š‹Ó8ì‰­º1
+j	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ŠôÇˆ8ì‰­º1
+h	java:S101Ã"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ãÍûüúÿÿÿÿ
+h	java:S101É"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(–à­Õşÿÿÿÿ
+h	java:S101Ò"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¼ä€úÿÿÿÿ
+c	java:S101Ú"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(×æèî
+c	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(®Àğ
+h	java:S101”"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ˆ©Ş’ÿÿÿÿÿ
+c	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ü€´û
+b	java:S107D"AConstructor has 8 parameters, which is greater than 7 authorized.(“İ¥øÿÿÿÿ8¡ì‰­º1
+[
+java:S1117c"?Rename "locationDTO" which hides the field declared at line 62.(—ŒÜc8¦ì‰­º1

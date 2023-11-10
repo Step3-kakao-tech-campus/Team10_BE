@@ -1,0 +1,15 @@
+
+U
+java:S1118":Add a private constructor to hide the implicit public one.(ÒÌîáûÿÿÿÿ
+p	java:S116"[Rename this field "partner_order_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ì‘™•
+n	java:S116"ZRename this field "partner_user_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼Á»
+h	java:S116"TRename this field "item_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Âë¤
+q	java:S116"WRename this field "total_amount" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜Œ÷íøÿÿÿÿ
+j	java:S116"URename this field "vat_amount" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·ûÈû
+o	java:S116"ZRename this field "tax_free_amount" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦£ëÛ
+k	java:S116"WRename this field "approval_url" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ýèÊ
+o	java:S116"URename this field "cancel_url" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÏØ¦Áÿÿÿÿÿ
+m	java:S116"SRename this field "fail_url" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©é‘žûÿÿÿÿ
+p	java:S116$"[Rename this field "partner_order_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ì‘™•
+n	java:S116%"ZRename this field "partner_user_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼Á»
+m	java:S116&"SRename this field "pg_token" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Äí§Êûÿÿÿÿ

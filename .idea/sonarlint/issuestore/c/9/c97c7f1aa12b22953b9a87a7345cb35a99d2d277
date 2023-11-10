@@ -1,0 +1,20 @@
+
+p
+java:S1192i"ZDefine a constant instead of duplicating this literal "start to make file entity" 4 times.(Â‘™
+m
+java:S2259D"RA "NullPointerException" could be thrown; "getOriginalFilename()" can return null.(Åëõ‹üÿÿÿÿ
+A
+java:S10757"&Remove this hard-coded path-delimiter.(™´Àüÿÿÿÿ
+n
+java:S2139R"XEither log this exception and handle it, or rethrow it with some contextual information.(ÚÆ¦
+n
+java:S2139d"XEither log this exception and handle it, or rethrow it with some contextual information.(ÚÆ¦
+J	java:S108j")Either remove or fill this block of code.(Èôïüÿÿÿÿ8¬èş¬º1
+U	java:S899w";Do something with the "boolean" value returned by "delete".(âÙÑñüÿÿÿÿ
+i
+java:S4042w"NUse "java.nio.file.Files#delete" here for better messages on error conditions.(âÙÑñüÿÿÿÿ
+v
+java:S2139—"XEither log this exception and handle it, or rethrow it with some contextual information.(ÚÆ¦8²èş¬º1
+]	java:S899¥";Do something with the "boolean" value returned by "delete".(âÙÑñüÿÿÿÿ8µèş¬º1
+q
+java:S4042¥"NUse "java.nio.file.Files#delete" here for better messages on error conditions.(âÙÑñüÿÿÿÿ8µèş¬º1
