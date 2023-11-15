@@ -95,17 +95,13 @@
 
     ```java
     boolean isOverlapping = reservationList.stream()
-            .anyMatch(existingReservation -> {
-                LocalDateTime existingStartTime = existingReservation.getStartTime();
-                LocalDateTime existingEndTime = existingReservation.getEndTime();
-    
-                // endTime이 다음 날로 넘어가는 경우를 고려하여 조정
-                LocalDateTime extendedEndTime = (endTime.toLocalTime().isBefore(startTime.toLocalTime()))
-                        ? endTime.plusDays(1) : endTime;
-    
-                // 겹치는 예약 확인
-                return !(extendedEndTime.isBefore(existingStartTime) || startTime.isAfter(existingEndTime));
-            });
+         .anyMatch(existingReservation -> {
+             LocalDateTime existingStartTime = existingReservation.getStartTime();
+             LocalDateTime existingEndTime = existingReservation.getEndTime();
+
+             return !(endTime.isEqual(existingStartTime) || startTime.isEqual(existingEndTime)) &&
+                    !(endTime.isBefore(existingStartTime) || startTime.isAfter(existingEndTime));
+         });
     
     if (isOverlapping) {
         throw new BadRequestError(
